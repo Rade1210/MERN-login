@@ -1,6 +1,5 @@
-
-
 import asyncHandler from "express-async-handler"
+import User from "../models/userModel.js"
 
 // Auth user/set token
 // route POST /api/users/auth
@@ -15,6 +14,7 @@ const authUser = asyncHandler(async(req, res) => { // asyncHandler automatically
 // Public
 
 const registerUser = asyncHandler(async(req, res) => { // asyncHandler automatically does try/catch
+    console.log(req.body)
     res.status(200).json({message: "Register user"})
 })
 
