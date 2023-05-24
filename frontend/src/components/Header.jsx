@@ -15,12 +15,12 @@ const Header = () => {
             <Nav className="ms-auto">
               <LinkContainer to="/login">
               <Nav.Link href="/login">
-                <FaSignInAlt /> Sign In
+                <FaSignInAlt /> Login
               </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/register">
               <Nav.Link href="/login">
-                <FaSignOutAlt /> Sign Up
+                <FaSignOutAlt /> Register
               </Nav.Link>
               </LinkContainer>
             </Nav>
