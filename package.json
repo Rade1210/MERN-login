@@ -1,19 +1,17 @@
 {
   "name": "mern-auth",
   "version": "1.0.0",
-  "description": "MERN login system with user account",
   "type": "module",
-  "main": "index.js",
+  "description": "MERN authentication system",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "client": "npm run dev --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Brad Traversy",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
@@ -21,10 +19,10 @@
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^7.2.0"
+    "mongoose": "^7.1.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22",
-    "concurrently": "^8.0.1"
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
   }
 }
