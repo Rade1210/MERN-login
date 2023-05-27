@@ -1,2 +1,2 @@
 [build]
-  command = "npm i && cd frontend && npm install"
+     command = "npm install && cd frontend && npm install && cd .. && npm run build"
