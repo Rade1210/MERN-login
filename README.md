@@ -1,2 +1,1 @@
-# MERN-login
-MERN login system with user account
+JWT authentication project
