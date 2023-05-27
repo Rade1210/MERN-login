@@ -1,2 +1,2 @@
 [build]
-  command = "npm run dev"  # Modify the build command based on your project setup
+  command = "npm i && cd frontend && npm install"
